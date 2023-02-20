@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+a{
+    text-decoration:none;
+    color: rgb(132, 142, 156);
+}
+a:hover{
+    color: #fcd94a;
+}
+.row-1{
+    width: 1090px;
+}
+header a:hover{
+    color: #fcd94a !important;
+}
+.register{
+    background-color: #fcd94a;
+    color:black;
+    border-radius: 3px;
+}
+.register:hover{
+    color:black;
+    border-radius: 3px;
+}
+.header-2{
+    font-size: 12px;
+    background-color: #1e2026;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.header-2 .col-4{
+    color: grey;
+}
+.header-2 .col-4:hover{
+    color:#fcd94a !important;
+    transition: 0.50s;
+}
+.header-price .col-1 p{
+    margin-bottom: 3px;
+}
+.header-price{
+    background: black;
+    color: gray;
+    border:1px solid rgb(37, 41, 48);
+}
+.tutorial p{
+    margin-left: 7px;
+}
+
+.row-2{
+    width:1347px;
+}
+.form{
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: grey;
+}
+.form .fa-microphone{
+    color:grey;
+}
+
+.form span{
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid white;
+    border: none;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    background-color: black;
+    border:none;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+.alert{
+    background-color: rgb(40, 26, 0);
+    color: white;
+}
+.limit{
+    color: #fcd94a;
+    padding: 0 20px;
+    font-size: 17px;
+}
+.table{
+    font-size: 12px;
+}
+.btn-21{
+    margin-top: 75px;
+}
+.btn-21 button{
+    background-color: #2b3139;
+    color: white;
+    padding: 10px;
+}
+.btn-21 span{
+    color: #fcd94a;
+}
+.tabs{
+    width: 98% !important;
+    margin-left: 6px;
+}
+.btn-price button{
+    border: none;
+    background: transparent;
+    color:#fcd94a;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-pricee button{
+    border: none;
+    background: transparent;
+    color:#fcd94a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 146px;
+}
+.price-usdt{
+    color: rgb(246, 70, 93);
+}
+.pair-usdt span{
+    color: rgb(234, 236, 239)
+}
+.price-btc{
+    color: rgb(14, 203, 129);
+}
+.price-change{
+    color: rgb(246, 70, 93);
+}
+.trade-price{
+    color: rgb(14, 203, 129); 
+}
+.tab-usdt{
+    color: rgb(234, 236, 239);
+    margin-left: 10px;
+    margin-top: 10px;
+}
